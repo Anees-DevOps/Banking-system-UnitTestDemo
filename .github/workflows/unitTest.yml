@@ -26,5 +26,5 @@ jobs:
 
       - name: Run tests
         run: |
-          source myenv/bin/activate
+          source myvenv/bin/activate
           pytest -v
